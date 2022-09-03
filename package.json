@@ -1,0 +1,16 @@
+{
+  "name": "sw-exporter-devilmon-companion",
+  "version": "1.0.1",
+  "description": "SWEX Plugin to upload siege data to devilmon.me.",
+  "main": "index.js",
+  "scripts": {
+    "asar": "asar pack . devilmon.asar",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.6"
+  }
+}
