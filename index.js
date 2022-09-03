@@ -13,7 +13,7 @@ const endPoint = 'https://devilmon.me',
     logSubDir = 'devilmon logs',
     pluginDescription = 'This plugin uploads siege data to devilmon.me.',
     pluginName = 'Devilmon Companion',
-    pluginVersion = '1.0.1';
+    pluginVersion = '1.0.0';
 
 var guildId,
     latestVersion,
@@ -132,7 +132,7 @@ module.exports = {
                                 message: localization ? '최신 버전을 사용중입니다.' : 'This plugin is up to date!'
                             });
                         } else {
-                            shell.openExternal('https://github.com/Jin-hjs/devilmon.me/releases/latest');
+                            shell.openExternal('https://github.com/Jin-hjs/sw-exporter-devilmon-companion/releases/latest');
                             proxy.log({
                                 type: 'warning', source: 'plugin', name: localization ? localizedPluginName : this.pluginName,
                                 message: localization ? '구버전을 사용중입니다. 새 버전으로 업데이트 해주시기 바랍니다.' : 'This plugin is outdated. Please download the lastest version.'

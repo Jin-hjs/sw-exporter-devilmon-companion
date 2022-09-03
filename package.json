@@ -1,6 +1,6 @@
 {
   "name": "sw-exporter-devilmon-companion",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "SWEX Plugin to upload siege data to devilmon.me.",
   "main": "index.js",
   "scripts": {
